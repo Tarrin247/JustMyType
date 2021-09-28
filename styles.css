@@ -15,6 +15,8 @@
   width: 15px;
   height: 15px;
   background-color: yellow;
+  /* display: none; */
+  left: 15px;
 }
 
 .keyboard-container {
@@ -33,10 +35,15 @@
 #feedback {
   font-size: 20px;
 }
+
 .glyphicon-ok {
   color: #1DA237
 }
 
 .glyphicon-remove {
   color : #CD2626
+}
+
+#keyboard-upper-container {
+  display: none;
 }
